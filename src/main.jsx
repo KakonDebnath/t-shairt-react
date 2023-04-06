@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import './index.css';
 import Home from './components/Home/Home';
 import {
@@ -20,7 +19,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader: ()=>fetch('tShirts.json')
       },
       {
         path: "/review",

@@ -26,7 +26,7 @@ const Header = () => {
         },
     ]
     return (
-        <header>
+        <header className='bg-red-300 mb-10'>
             <div>
                 <Link to={'/'}>Logo</Link>
                 <nav>
