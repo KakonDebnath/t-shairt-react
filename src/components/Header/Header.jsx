@@ -31,7 +31,7 @@ const Header = () => {
         },
     ]
     return (
-        <header className='p-5'>
+        <header className='p-4 sticky top-0 z-10 bg-lime-300'>
             <div className='flex justify-between items-center'>
                 <Link to={'/'}>Logo</Link>
                 <nav>

@@ -24,7 +24,7 @@ const Home = () => {
         setCart(remaining);
     }
     return (
-        <div className='grid grid-cols-4 gap-4 px-4'>
+        <div className='grid grid-cols-4 gap-4 p-4'>
             <div className='col-span-3 grid grid-cols-3 gap-4' >
                 {
                     tShirts.map((tShirts) => <TShirt
