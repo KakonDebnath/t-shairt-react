@@ -26,8 +26,8 @@ const Header = () => {
         },
     ]
     return (
-        <header className='bg-red-300 mb-10'>
-            <div>
+        <header className='p-5'>
+            <div className='flex justify-between items-center'>
                 <Link to={'/'}>Logo</Link>
                 <nav>
                     <ul className='flex'>
