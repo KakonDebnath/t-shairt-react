@@ -12,7 +12,10 @@ const Cart = ({ cart, removedFromCartHandler }) => {
                     <p 
                     key={tshirt._id} 
                     className='flex justify-between bg-red-200 p-2 mb-1 rounded'>   {tshirt.name}
-                    <TrashIcon className='h-6 w-6' onClick={()=>removedFromCartHandler(tshirt._id)}></TrashIcon> </p>)
+                    <TrashIcon className='h-6 w-6 cursor-pointer' onClick={()=>removedFromCartHandler(tshirt._id)}></TrashIcon> </p>)
+            }
+            {
+                cart.length === 0 ? <div>Please Add Some Item</div> : <p>Thanks</p>
             }
         </div>
     );

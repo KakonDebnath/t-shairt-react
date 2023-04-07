@@ -24,6 +24,11 @@ const Header = () => {
             name: "Contact",
             path: "/contact"
         },
+        {
+            id: 5,
+            name: "Grandpa",
+            path: "/grandpa"
+        },
     ]
     return (
         <header className='p-5'>

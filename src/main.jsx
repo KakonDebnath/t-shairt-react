@@ -10,6 +10,7 @@ import About from './components/About/About';
 import Main from './components/Layout/Main';
 import OrderReview from './components/OrderReview/OrderReview';
 import Contact from './components/Contact/Contact';
+import Grandpa from './components/Grandpa/Grandpa';
 
 
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact></Contact>
+      },
+      {
+        path: "/grandpa",
+        element: <Grandpa></Grandpa>
       },
     ]
   },
